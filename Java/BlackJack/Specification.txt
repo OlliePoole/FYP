@@ -1,0 +1,10 @@
+Specification
+
+
+Your program should meet the following specification: 
+• The program must simulate a game with 2 players and 52 cards.
+• The cards must be dealt randomly to each player and must be removed from the deck. 
+• The program will  deal a card to each player until one  player’s hand exceed 21 points. The 
+other player has won that hand and the players will start the next hand without cards. 
+• The program finishes when there are not more cards on the deck . 
+• Once the game is complete,  the winner must be displayed. 

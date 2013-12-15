@@ -1,0 +1,8 @@
+You are to write a program that will use the method given below to verify a credit card number.   
+For simplicity, the numbers used will be eight digits in length rather than sixteen digits in length like a real credit card number
+
+1)	Starting from the rightmost digit, form the sum of every other digit.  For example,, if the credit card number was 1234 5674 then the sum is 4 + 6 + 4 + 2 = 16
+2)	Double each of the digits that were not included in the preceding step.  Add all the digits of the resulting numbers.   For example using the number above and again starting from the right hand side we get:  14 + 10 + 6 + 2.  Adding all the digits we get  1+4+1+0+6+2 = 14
+3)	Add the results of steps 1 and 2.   If the last digit of the result is zero, the number is valid.  In this case, 16 + 14 = 30, so the number is valid.
+
+When the user enters a valid credit card number, the program should tell them the number is valid.  When they enter an invalid number, the program should tell them the number is invalid and say what the correct check digit value would have been to make the number valid.

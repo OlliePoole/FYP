@@ -1,0 +1,26 @@
+You are required to implement a program that will play the game of NIM.  
+This is a two player game where a randomly sized set of straws is used.   
+Each player takes turns to remove from 1 to 3 straws from the pile.   
+The player that removes the final straw is the loser.   
+You will first implement this as a computer vs. human game, then as a computer vs computer game.
+
+
+Your first program, human vs. computer, should meet the following specification.  
+You should implement the computer’s move and the player’s move as functions to allow easy updating from the first to the second program.
+•	The program will first generate a random number in the range 10 – 20 inclusive to represent the number of straws
+•	If the number of straws generated is one more than a multiple of four, e.g. 13 or 17 then add one to the number of straws.
+•	The two players alternate in turns with the computer going first.
+•	Each turn, the current player must remove 1 – 3 straws.    The program then displays the number of straws remaining on the screen.
+•	The game continues until all straws have been removed.  The player that removes the last straw loses.
+•	Once the game is complete, a message will appear on the screen saying who won then the human player will be asked If they wish to play again and if so the game should begin again.
+
+The strategy for the computer player should be to simply generate a random number in the range 1-3 inclusive and remove that many straws.
+
+
+In the second version of your program, you will replace the function that carries out the code for the human player’s turn with a second computer player function.  This second computer player should use the following strategy:
+•	If the number of straws remaining is one more than a multiple of four, pick up one straw
+•	Otherwise, pick up the number of straws that leaves one more than a multiple of four
+
+This second program should when run play the game 10 times, then display the number of times the first computer player won, the number of times the second computer player won and the 10 game winners in order e.g.
+
+player1, player1, player2, player1, player2, etc.

@@ -1,0 +1,32 @@
+Part 1a
+The first file should be called team.py and will contain a class that should be called Team.   
+Class Team needs to keep track of the statistics.
+
+Create a file called team.py containing the class description for Team.  
+
+
+
+Part 1b
+Create another file called teamtest.py.   This file should contain code to test your Team class. 
+The code in teamtest.py should import Team and create a variable of type Team then use the get methods to display the initial values of the attributes.  
+It should then call the win, loss and draw methods before using the get methods again to display the final values of the attributes which should be:
+wins	1
+draws	1
+losses	1
+played	1
+total	2 
+
+Part 2
+The next file will be called league.py, which will import Team and contain the description for class League.
+Class League will contain one attribute which will be a list called table.   
+League will contain methods which will carry out the following actions:
+Construct the class
+Remove a team from the list
+Return the position of a team in the list or -1 if the team is not present.
+Update the statistics for the two teams involved when a result is entered, or display a message if a team is not in the league.  HINT: this should first use the find position method to identify where the teams to be modified are in the list.
+Display the list
+Save the list data to a file
+Load the list data from a file
+
+Part 3
+The main program should be in a file called hockeyleague.py and will import League.   This file provides the user interface and uses League to carry out the actions.   The interface for this should be a standard text interface as has been used in examples throughout the course

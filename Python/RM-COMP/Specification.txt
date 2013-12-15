@@ -1,0 +1,40 @@
+Base Specification
+
+Oxford Brookes University has decided to rebuild its Personal Information Portal (PIP) system. You are required to implement key features for the new system. 
+Core activities at the university involve students taking modules, being assessed, and accumulating sufficient credits in order to graduate. Lecturers are responsible for delivering modules and conducting the associated assessment of students’ performance. They are also responsible for deciding which modules can and must be taken and passed for each degree course offered by the university.
+
+
+Key features, therefore, are:
+1.	Allow students to register on modules, as permitted by their degree
+2.	Allow academic staff to add assessment marks during the run of each module
+3.	Produce a list of students who have not submitted a piece of assessment
+4.	Calculate the total marks and grade for a particular student registration, at the end of the module delivery
+5.	Produce a summary of the results for a particular module run, to include:
+a.	The number of students registered
+b.	The number, and percentage, of students who passed the module (scored a total of more than 40)
+c.	The average percentage for each piece of assessment, and for the total marks.
+6.	Produce a summary of the results for a particular student, to include:
+a.	A list of modules taken, with the mark obtained, grouped by date
+b.	Total number of modules taken, and the current running average
+7.	Allow the contents of the data store to be saved to file and loaded from file 
+8.	Make it possible to choose between each of these options, perhaps with some sort of menu system.
+
+Don’t worry about password authentication, since this will make the demonstration more time-consuming.
+
+
+
+Requirements briefing
+
+Other stakeholders at the university have an interest in the new system, and would like to see some support provided for their roles. The following list summarizes some of the potential functions your group might like to consider:
+1.	Students would like help with choosing the right modules for their degree 
+2.	The Exams Office require information about which modules have exams, and how many students are taking each exam, so that they can plan rooms, dates and times for examinations at the end of each semester 
+3.	Student Support Officers need a list of students who have any problems with their course, such as missing modules, low marks, failure to submit coursework assignments 
+4.	Lecturers would like an appointment system so that they can make scheduled appointments with students on their modules 
+5.	Students would like a facility to view all assessment details for each semester, as soon as they have registered modules for that semester 
+6.	Administrators require a list of modules running next semester, the dates and times of classes, and the total number of students registered, so that they can book appropriate teaching rooms. 
+7.	Quality Assurance Officers at the university require a history of each module that provides trend information on the average marks, and pass rates. 
+8.	Students would like to evaluate their modules using the system.
+9.	Subject Coordinators would like to see reports on the results of student evaluations
+10.	All stakeholders would like a GUI if possible in the time available.
+
+The marks for satisfying each of these requirements and for implementing each part of the base specification will be the same.
